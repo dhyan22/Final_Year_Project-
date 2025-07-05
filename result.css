@@ -1,0 +1,150 @@
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.result-container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.result-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.result-container th,
+.result-container td {
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+}
+
+.result-container th {
+    background-color: #f5f5f5;
+    color: #000;
+    font-weight: 600;
+}
+
+
+.back-home {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #2575fc;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-home:hover {
+    background-color: #200446;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background: #520c0c;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background: #28a745;
+    border-radius: 5px;
+}
+
+a:hover {
+    background: #218838;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #0052D4, #0074E4);
+    padding: 15px 20px;
+    color: white;
+    z-index: 1000;
+}
+
+.nav-left ul {
+    list-style-type: none; /* Remove bullet points */
+    display: flex; /* Display items in a row */
+    align-items: center; /* Center items vertically */
+}
+
+.nav-left ul li {
+    margin-left: 20px; /* Space between items */
+}
+
+.nav-left ul li a {
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Font size */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.nav-left ul li a:hover {
+    color: #4CAF50;
+}
+
+.nav-left ul img {
+    margin-right: auto; /* Push logo to the left */
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.user-profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.user-profile span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
